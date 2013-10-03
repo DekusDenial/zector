@@ -59,7 +59,7 @@ Z(document.body); // pass in an actual HTMLElement
       easeInElastic, easeOutElastic, easeInOutElastic, 
       easeInBack, easeOutBack, easeInOutBack, 
       easeInBounce, easeOutBounce, easeInOutBounce
-  * Currently CSS3 Transformation is not supported and only accept style properties with numeric pixel value only, no "em" or "%"...
+  * Currently CSS3 Transformation is not supported and only accept style properties with numeric value in pixel "px" only, no "em" or "%"...
 
     ```javascript
     // To scroll the page down, you can use this syntax sugar
@@ -108,3 +108,7 @@ vailable tasks
 ```
 
 5. Run `grunt build` to build `zector.js` and `zector.min.js` to the `dist` directory. OR, run `grunt build compress` to build, in addition to the two files, also a gzipped of `zector.min.js`, called `zector.min.js.gz`
+
+## License
+
+Copyright (c) 2013 DekusDenial. See the LICENSE file for license rights and limitations (MIT).
