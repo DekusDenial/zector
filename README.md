@@ -16,7 +16,7 @@ Z(document.body); // pass in an actual HTMLElement
 * API syntax is very similar to jQuery
 * Fast DOM querying prioritizing native DOM API
 * Returns Array-like object and supports method chaining
-* Lightweight, perfect for mobile platform (only 3.9KB after gzip)
+* Lightweight, perfect for mobile platform (only 3.9KB after gzip with no comment)
 
 ## Features (ongoing)
 
@@ -108,6 +108,14 @@ vailable tasks
 ```
 
 5. Run `grunt build` to build `zector.js` and `zector.min.js` to the `dist` directory. OR, run `grunt build compress` to build, in addition to the two files, also a gzipped of `zector.min.js`, called `zector.min.js.gz`
+
+## Browser compatibility
+  * Chrome
+  * Firefox
+  * Safari
+  * IE 9+
+  * Android 2.3+
+  * iOS 5+
 
 ## License
 

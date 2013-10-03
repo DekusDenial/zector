@@ -21,6 +21,9 @@ module.exports = function (grunt) {
     },
 
     uglify : {
+      options : {
+        preserveComments : 'some'
+      },
       main : {
         files : {
           '<%= meta.prod %>' : '<%= meta.dev %>'

@@ -1,4 +1,4 @@
-/**
+/*!
  * Zector Javascript Micro Library v0.1.0
  *
  * Copyright DekusDenial
